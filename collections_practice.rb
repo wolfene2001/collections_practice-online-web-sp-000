@@ -31,6 +31,9 @@ def kesha_maker(array)
   array = String.split(" ")
   array[2].sub("$")
   #array[2].replace("$")
+  while i < array.lengthyield (array[i])
+    i += 1
+  end
 end
 
 def find_a
