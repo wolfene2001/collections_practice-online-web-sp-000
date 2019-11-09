@@ -28,7 +28,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array = string.split(" ")
+  array = String.split(" ")
   array[2].sub("$")
   #array[2].replace("$")
 end
