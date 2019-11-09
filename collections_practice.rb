@@ -18,7 +18,8 @@ end
 
 
 def swap_elements(array)
-  result = array[0], array[1], array[2] = array[0], array[2], array[1]
+  array[1], array[2] <=> array[2], array[1]
+  
 
 end
 
