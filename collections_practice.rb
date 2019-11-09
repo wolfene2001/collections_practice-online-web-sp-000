@@ -28,14 +28,17 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array = String.split(" ")
-  array[2].sub("$")
-  #array[2].replace("$")
-  while i < array.length
-    yield (array[i])
-    i += 1
+  # array = String.split(" ")
+  # array[2].sub("$")
+  # #array[2].replace("$")
+  # while i < array.length
+  #   yield (array[i])
+  #   i += 1
+  # end
+  array.each do |word|
+    word[2] = "$"
   end
-  array.each do
+  
 end
 
 def find_a
