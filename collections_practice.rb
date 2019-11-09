@@ -35,6 +35,7 @@ def kesha_maker(array)
     yield (array[i])
     i += 1
   end
+  array.each do
 end
 
 def find_a
